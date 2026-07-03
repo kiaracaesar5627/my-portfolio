@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f0f1a"/>
+  <rect width="800" height="450" fill="url(#bg1)"/>
+  <circle cx="650" cy="80" r="120" fill="#6366f1" opacity="0.25"/>
+  <circle cx="120" cy="380" r="100" fill="#38bdf8" opacity="0.2"/>
+  <rect x="80" y="100" width="640" height="280" rx="16" fill="#18181b" stroke="#27272a" stroke-width="2"/>
+  <rect x="110" y="130" width="180" height="12" rx="6" fill="#6366f1" opacity="0.8"/>
+  <rect x="110" y="160" width="120" height="8" rx="4" fill="#71717a"/>
+  <circle cx="130" cy="220" r="24" fill="#22c55e" opacity="0.9"/>
+  <path d="M122 220 L128 226 L140 212" stroke="#0f0f1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="180" y="205" width="200" height="10" rx="5" fill="#f4f4f5"/>
+  <rect x="180" y="230" width="280" height="8" rx="4" fill="#71717a"/>
+  <rect x="110" y="270" width="90" height="28" rx="14" fill="#6366f1" opacity="0.3" stroke="#6366f1"/>
+  <rect x="220" y="270" width="70" height="28" rx="14" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="310" y="270" width="80" height="28" rx="14" fill="#27272a" stroke="#3f3f46"/>
+  <text x="400" y="400" text-anchor="middle" fill="#71717a" font-family="monospace" font-size="14">Git � GitHub � Cursor</text>
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e1b4b" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+</svg>

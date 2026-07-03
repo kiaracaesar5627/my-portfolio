@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f0f1a"/>
+  <rect width="800" height="450" fill="url(#bg3)"/>
+  <circle cx="400" cy="200" r="160" fill="#6366f1" opacity="0.1"/>
+  <path d="M400 120 C320 120 260 160 260 220 C260 280 320 320 400 320 C480 320 540 280 540 220 C540 160 480 120 400 120Z" fill="#18181b" stroke="#27272a" stroke-width="2"/>
+  <path d="M360 240 L380 260 L440 200" stroke="#22c55e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="200" y="340" width="400" height="50" rx="8" fill="#18181b" stroke="#27272a" stroke-width="2"/>
+  <rect x="220" y="358" width="16" height="14" rx="2" fill="#6366f1"/>
+  <rect x="250" y="360" width="200" height="10" rx="5" fill="#f4f4f5"/>
+  <rect x="470" y="358" width="60" height="14" rx="7" fill="#27272a"/>
+  <circle cx="240" cy="200" r="4" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="560" cy="160" r="6" fill="#a78bfa" opacity="0.5"/>
+  <circle cx="580" cy="300" r="5" fill="#6366f1" opacity="0.4"/>
+  <text x="400" y="420" text-anchor="middle" fill="#71717a" font-family="monospace" font-size="14">my-first-repo</text>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c4a6e" stop-opacity="0.3"/>
+      <stop offset="0.5" stop-color="#1e1b4b" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+</svg>
