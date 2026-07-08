@@ -10,7 +10,7 @@ export const profile = {
   x: "https://x.com/kiaracaesar5627",
   instagram: "https://instagram.com/kiaracaesar5627",
   title: "Aspiring Web Developer",
-  tagline: "Building modern web experiences with Next.js, Cursor & AI",
+  tagline: "Building modern web experiences with Next.js, Cursor, AI & Vercel",
   bio: "Pitch Rise student learning full-stack development. Passionate about creating clean, responsive websites and growing my skills one project at a time.",
 };
 
