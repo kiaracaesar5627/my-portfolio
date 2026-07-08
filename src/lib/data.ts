@@ -1,9 +1,14 @@
+export type SocialPlatform = "github" | "linkedin" | "x" | "instagram" | "email";
+
 export const profile = {
   name: "Kiara Caesar",
   nickname: "KC",
   handle: "kiaracaesar5627",
   email: "kiaracaesar5627@gmail.com",
   github: "https://github.com/kiaracaesar5627",
+  linkedin: "https://linkedin.com/in/kiaracaesar5627",
+  x: "https://x.com/kiaracaesar5627",
+  instagram: "https://instagram.com/kiaracaesar5627",
   title: "Aspiring Web Developer",
   tagline: "Building modern web experiences with Next.js, Cursor & AI",
   bio: "Pitch Rise student learning full-stack development. Passionate about creating clean, responsive websites and growing my skills one project at a time.",
@@ -52,13 +57,34 @@ export const projects = [
   },
 ];
 
-export const socialLinks = [
+export const socialLinks: {
+  label: string;
+  href: string;
+  icon: SocialPlatform;
+}[] = [
   {
     label: "GitHub",
-    href: "https://github.com/kiaracaesar5627",
+    href: profile.github,
+    icon: "github",
+  },
+  {
+    label: "LinkedIn",
+    href: profile.linkedin,
+    icon: "linkedin",
+  },
+  {
+    label: "X",
+    href: profile.x,
+    icon: "x",
+  },
+  {
+    label: "Instagram",
+    href: profile.instagram,
+    icon: "instagram",
   },
   {
     label: "Email",
-    href: "mailto:kiaracaesar5627@gmail.com",
+    href: `mailto:${profile.email}`,
+    icon: "email",
   },
 ];
